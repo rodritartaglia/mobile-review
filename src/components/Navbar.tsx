@@ -1,4 +1,4 @@
-function Navbar(mobile: boolean) {
+function Navbar() {
     return (
         <nav>
             <ul className={`flex flex-col absolute bg-[#191919] -top-96 translate-y-96 pt-20 h-full w-screen -ml-4 left-0 -z-10 text-center`}>

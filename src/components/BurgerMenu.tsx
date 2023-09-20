@@ -10,13 +10,13 @@ function BurgerMenu() {
 
     return (
         <div className="h-10 w-10 flex items-center justify-center z-20">
-            {menu ?
+            {!menu ?
                 <IconMenu2 width={'100%'} height={'100%'} onClick={toggleMenu} />
                 :
                 <IconX width={'100%'} height={'100%'} onClick={toggleMenu} />
             }
-            {!menu &&
-                <Navbar mobile={true}/>
+            {menu &&
+                <Navbar/>
             }
         </div>
     )
