@@ -13,11 +13,11 @@ function Camera() {
             <span className="w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Cámara para selfies de 32 MP</span>
           </div>
         </div>
-        <img src="src/assets/camera1.jpg" alt="" className="md:w-2/3 md:m-auto" />
+        <img src="/camera1.jpg" alt="" className="md:w-2/3 md:m-auto" />
       </div>
-      <CameraBlock title="PERSPECTIVA DE ALTA RESOLUCIÓN" description="Gracias a la cámara de 64 MP, tus fotos tendrán siempre una calidad definida, vívida y nítida, incluso en condiciones de poca luz." imageSrc="src/assets/camera2.jpg" reverse={false}/>
-      <CameraBlock title="ENCUADRA TODO LO QUE VES" description="Disfruta de un encuadre cuatro veces mayor con las fotos ultra gran angular, haz primeros planos cuatro veces más cerca y ajusta la profundidad focal para hacer retratos creativos." imageSrc="src/assets/camera3.jpg" reverse={true}/>
-      <CameraBlock title="SELFIES INCREÍBLES" description="Los selfies de alta resolución con tecnología Quad Pixel combinan cuatro píxeles en uno para mejorar la sensibilidad en condiciones de poca luz." imageSrc="src/assets/camera4.jpg"  reverse={false}/>
+      <CameraBlock title="PERSPECTIVA DE ALTA RESOLUCIÓN" description="Gracias a la cámara de 64 MP, tus fotos tendrán siempre una calidad definida, vívida y nítida, incluso en condiciones de poca luz." imageSrc="/camera2.jpg" reverse={false}/>
+      <CameraBlock title="ENCUADRA TODO LO QUE VES" description="Disfruta de un encuadre cuatro veces mayor con las fotos ultra gran angular, haz primeros planos cuatro veces más cerca y ajusta la profundidad focal para hacer retratos creativos." imageSrc="/camera3.jpg" reverse={true}/>
+      <CameraBlock title="SELFIES INCREÍBLES" description="Los selfies de alta resolución con tecnología Quad Pixel combinan cuatro píxeles en uno para mejorar la sensibilidad en condiciones de poca luz." imageSrc="/camera4.jpg"  reverse={false}/>
       <hr className="bg-primary h-0.5 border-none w-[85%] mx-auto mt-10" />
     </div>
   )

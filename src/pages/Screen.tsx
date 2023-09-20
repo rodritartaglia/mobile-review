@@ -3,7 +3,7 @@ function Screen() {
     return (
         <div className="text-white mb-14">
             <h3 className="text-4xl my-4 md:text-center">DISEÑO COMPACTO. MÁS ENTRETENIMIENTO.</h3>
-            <img src="src/assets/screen.jpg" alt="" className="md:w-2/3 md:m-auto"/>
+            <img src="/screen.jpg" alt="" className="md:w-2/3 md:m-auto"/>
             <div className="flex flex-col gap-3 divide-y">
                 <div className="p-5 flex flex-col gap-10"> {/*row1*/}
                     <div className="flex flex-col gap-2">

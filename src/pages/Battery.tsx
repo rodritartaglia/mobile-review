@@ -16,7 +16,7 @@ function Battery() {
           </div>
         </div>
       </div>
-      <img src="src/assets/battery.jpg" alt="" className="md:w-2/3 md:m-auto"/>
+      <img src="/battery.jpg" alt="" className="md:w-2/3 md:m-auto"/>
     </div>
   )
 }

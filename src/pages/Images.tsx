@@ -8,13 +8,13 @@ const CarouselComponent: React.FC = () => {
             <div className='p-6 md:hidden'>
                 <Carousel>
                     <div>
-                        <img src="src/assets/image1.jpg" alt="Imagen 1" />
+                        <img src="/image1.jpg" alt="Imagen 1" />
                     </div>
                     <div>
-                        <img src="src/assets/image2.jpg" alt="Imagen 2" />
+                        <img src="/image2.jpg" alt="Imagen 2" />
                     </div>
                     <div>
-                        <img src="src/assets/image3.jpg" alt="" />
+                        <img src="/image3.jpg" alt="" />
                     </div>
                     {/* Agrega más elementos <div> para más imágenes */}
                 </Carousel>
