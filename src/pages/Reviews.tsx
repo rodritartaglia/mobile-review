@@ -2,7 +2,7 @@ import ReviewBlock from '../components/ReviewBlock'
 
 function Reviews() {
   return (
-    <div className='divide-y-2 divide-gray-600 flex flex-col gap-4 mt-4'>
+    <div className='divide-y-2 divide-gray-600 flex flex-col gap-4 mt-4 mx-4'>
       <ReviewBlock 
       name={'Gabo Gabriel'} 
       title={'Increíble desempeño buena perfomance'} 

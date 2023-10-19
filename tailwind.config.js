@@ -8,6 +8,10 @@ export default {
     extend: {
       colors: {
         primary: '#8e19fc'
+      },
+      fontFamily: {
+        'MPLUS2': ['"M PLUS 2"', 'sans-serif'],
+        'kantumruy': ['Kantumruy Pro', 'sans-serif']
       }
     },
   },

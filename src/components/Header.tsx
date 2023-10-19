@@ -1,16 +1,12 @@
-import BurgerMenu from "./BurgerMenu"
-
-
 function Header() {
   return (
-    <header className="bg-[#191919] flex w-full justify-between text-white h-20 items-center border-b-2 border-[rgb(107,114,128)] sticky top-0 z-10">
-      <h2 className="z-30">Moto <span className="font-medium text-primary">Edge</span></h2>
-      <div className="flex items-center gap-5">
-        <button className="bg-[#8e19fc] py-2 px-4 text-black rounded-full font-medium">Comprar</button>
-        <BurgerMenu />
+    <header className="px-4 flex w-full justify-between text-white p-4 h-28 items-center">
+      <span className="w-1/2 h-full flex"><img src="./logoMotoEdge.svg" alt="" className="h-10 m-auto"/></span>
+      <div className="flex items-center gap-5 w-1/2 justify-center h-full">
+        <button className='bg-gradient-to-br from-[#FF6384] to-[#B41637] py-1.5 px-6 rounded-tl-3xl rounded-br-3xl outline outline-2 -outline-offset-2 outline-[rgba(224,212,255,0.3)] drop-shadow-xl font-MPLUS2 text-xl font-black text-white'>COMPRAR</button>
       </div>
     </header>
   )
-}
+} 
 
 export default Header

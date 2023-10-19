@@ -1,0 +1,32 @@
+/* .bg-multiple {
+    background-image: url('/background.png'), url('/background2.png'), url('/background3.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 0 100%, top, center top;
+} */
+
+@media (min-width: 768px) {
+    .bg-multiple {
+        background-position: 0 100%, top, center right;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translate3d(-200%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInLeft {
+    animation: slideInLeft;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 1000ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
