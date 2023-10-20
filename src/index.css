@@ -24,3 +24,16 @@ body {
   color: #ffffff;
 
 }
+
+.dot {
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 9999px;
+  /* falta el drop shadow de color */
+}
+
+.selected {
+  height: 4rem;
+  width: 4rem;
+}
