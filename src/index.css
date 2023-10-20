@@ -13,3 +13,14 @@ body {
   font-family: 'M PLUS 2', 'sans-serif';
   color: white;
 }
+
+.spikyButton {
+  background: linear-gradient(to bottom right, #FF6384, #B41637);
+  padding: 0.375rem 1.5rem;
+  outline: 3px solid rgba(224, 212, 255, 0.3);
+  outline-offset: -3px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+  color: #ffffff;
+
+}
