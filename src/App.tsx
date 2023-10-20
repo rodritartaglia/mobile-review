@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <div className="bg-[url(./Background.png)] bg-cover">
+      <div>
         <Header />
         <Home/>
         <Images/>
