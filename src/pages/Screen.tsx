@@ -1,3 +1,5 @@
+import './Screen.css'
+
 function Screen() {
 
     return (
@@ -27,9 +29,9 @@ function Screen() {
                     </div>
                 </div>
                 <div className="relative my-8 bg-[url(/Ellipse6.png)] bg-cover bg-center">
-                    <img src="./image5.png" alt="" className="relative z-20" />
-                    <img src="./image5Shadow.svg" alt="" className="absolute inset-2 z-10" />
-                    <img src="./Rectangulo 2.svg" alt="" className="absolute -inset-0 z-0 transform scale-100" />
+                    <img src="./image5.png" alt="" className="relative z-20 pruebaimagen" />
+                    {/* <img src="./image5Shadow.svg" alt="" className="absolute inset-2 z-10" /> */}
+                    <img src="./Rectangulo 2.svg" alt="" className="absolute -inset-0 z-0" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4">
                     <div className="flex justify-around items-center mt-16 w-full">

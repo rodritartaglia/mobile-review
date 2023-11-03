@@ -16,7 +16,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
-  min-height: 100vh; /* Garantiza que el fondo ocupe al menos el alto completo de la ventana */
+  min-height: 100vh;
+  /* Garantiza que el fondo ocupe al menos el alto completo de la ventana */
 }
 
 
@@ -36,7 +37,7 @@ body {
   height: 2.75rem;
   width: 2.75rem;
   border-radius: 9999px;
-  filter: drop-shadow(-10px -10px 15px rgba(117,243,167,0.5));
+  filter: drop-shadow(-10px -10px 15px rgba(117, 243, 167, 0.5));
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.75);
 }
 

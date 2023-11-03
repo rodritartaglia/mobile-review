@@ -2,16 +2,16 @@ import CameraBlock from "../components/CameraBlock"
 
 function Camera() {
   return (
-    <div className="">
+    <div className="bg-[url(./Rectangle4.svg)] bg-right-top bg-no-repeat">
       <div className="text-white flex flex-col gap-10 mt-6 mx-4">
         <div>
           <div className="flex flex-col gap-4 p-2 text-center">
-            <h4 className="text-[1.75rem]">Cámaras minimalistas, fotos detalladísimas</h4>
-            <p className="text-sm">Disfruta de la fotografía <span className="text-primary font-semibold">edge</span> y de las ventajas de hacer fotos muy nítidas en condiciones de poca o mucha luz, tanto de día como de noche.</p>
-            <div className="flex flex-col my-4 mx-auto">
-              <span className="w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Principal de 64 MP + OIS</span>
-              <span className="w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Ultra gran angular de 13 MP y Macro</span>
-              <span className="w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Cámara para selfies de 32 MP</span>
+            <h4 className="text-2xl font-bold px-8 tracking-wider">Cámaras minimalistas, fotos detalladísimas</h4>
+            <p className="px-1.5 font-kantumruy font-light leading-7 ">Disfruta de la fotografía <span className="text-primary font-semibold">edge</span> y de las ventajas de hacer fotos muy nítidas en condiciones de poca o mucha luz, tanto de día como de noche.</p>
+            <div className="flex flex-col my-4 mx-auto space-y-2">
+              <span className="bg-[rgba(25,25,25,0.4)] w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Principal de 64 MP + OIS</span>
+              <span className="bg-[rgba(25,25,25,0.4)] w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Ultra gran angular de 13 MP y Macro</span>
+              <span className="bg-[rgba(25,25,25,0.4)] w-72 p-1.5 rounded-xl cursor-pointer text-center hover:bg-primary">Cámara para selfies de 32 MP</span>
             </div>
           </div>
           <img src="/camera1.jpg" alt="" className="md:w-2/3 md:m-auto" />
