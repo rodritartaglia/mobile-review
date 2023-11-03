@@ -1,0 +1,53 @@
+.table {
+    color: white;
+    font-family: Kantumruy Pro, sans-serif;
+    letter-spacing: 0.05em;
+    margin-block: .5rem;
+    border-spacing: 30px 0;
+    border-collapse: separate;
+}
+
+.tableTitle {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.05em;
+    padding-bottom: 1rem;
+
+}
+
+.tableSubtitle {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 50%;
+    vertical-align: top;
+}
+
+.tableParagraph {
+    font-weight: 300;
+    font-size: 0.75rem;
+    vertical-align: top;
+    padding-bottom: 1rem;
+}
+
+.specs-button {
+    box-shadow: 0px 4px 0px rgba(160, 243, 214, 0.25);
+}
+
+.specs-button span {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.specs-button svg {
+    height: 100%;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+
+}

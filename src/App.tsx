@@ -1,5 +1,4 @@
 import Header from "./components/Header"
-import TechSpecs from "./pages/TechSpecs"
 import Home from "./pages/Home"
 import Images from "./pages/Images"
 import Features from "./pages/Features"
@@ -14,7 +13,6 @@ function App() {
         <Home/>
         <Images/>
         <Features/>
-        <TechSpecs/>
         <Reviews/>
       </div>
     </div>

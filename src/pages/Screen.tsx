@@ -3,7 +3,7 @@ function Screen() {
     return (
 
         <div>
-            <div className="text-white mb-14 mx-4">
+            <div className="text-white mb-14">
                 <div className="text-2xl flex flex-col justify-center items-center my-4 text-[#A0F3D6] font-black md:text-center">
                     <span>DISEÑO COMPACTO.</span>
                     <span>MÁS ENTRETENIMIENTO.</span>
@@ -26,16 +26,19 @@ function Screen() {
                         </div>
                     </div>
                 </div>
-                <div className="relative">
-                    <img src="./image5.png" alt="" className="relative z-20"/>
-                    <img src="./image5Shadow.svg" alt="" className="absolute inset-2 z-10"/>
-                    <img src="./Rectangulo 2.svg" alt="" className="absolute -inset-0 z-0"/>
+                <div className="relative my-8 bg-[url(/Ellipse6.png)] bg-cover bg-center">
+                    <img src="./image5.png" alt="" className="relative z-20" />
+                    <img src="./image5Shadow.svg" alt="" className="absolute inset-2 z-10" />
+                    <img src="./Rectangulo 2.svg" alt="" className="absolute -inset-0 z-0 transform scale-100" />
                 </div>
-                <div className="flex justify-around items-center">
-                    <span className="dot bg-[#ADC3B4] shadow-red-500"></span>
-                    <span className="dot selected bg-[#6667AB] shadow-red-500"></span>
-                    <span className="dot bg-[#30292F] shadow-red-500"></span>
-                    <span className="dot bg-[#B5B7B6] shadow-red-500"></span>
+                <div className="flex flex-col justify-center items-center gap-4">
+                    <div className="flex justify-around items-center mt-16 w-full">
+                        <span className="dot bg-[#ADC3B4] shadow-red-500"></span>
+                        <span className="dot selected bg-[#6667AB] shadow-red-500"></span>
+                        <span className="dot bg-[#30292F] shadow-red-500"></span>
+                        <span className="dot bg-[#B5B7B6] shadow-red-500"></span>
+                    </div>
+                    <span className="font-light text-xl">Colores que marcan tendencia</span>
                 </div>
             </div>
         </div>
