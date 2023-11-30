@@ -1,4 +1,8 @@
+import { Pagination } from "swiper/modules"
 import FeatureCard from "../components/FeatureCard"
+import { Swiper, SwiperSlide } from "swiper/react"
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 function Camera() {
   return (
@@ -19,10 +23,14 @@ function Camera() {
           </div>
           {/* <img src="/Camera.png" alt="" className="absolute -bottom-4 scale-95 -right-4 w-full z-10" /> */}
         </div>
-        <div className="flex gap-10">
-          <FeatureCard title="Tu teléfono. Tu experiencia." description="Personalízalo todo eligiendo entre varios colores Pantone, fuentes y formas de los iconos. " imageSrc="/image8.png" />
-          <FeatureCard title="ENCUADRA TODO LO QUE VES" description="Disfruta de un encuadre cuatro veces mayor con las fotos ultra gran angular, haz primeros planos cuatro veces más cerca y ajusta la profundidad focal para hacer retratos creativos." imageSrc="/camera3.jpg" />
-          <FeatureCard title="SELFIES INCREÍBLES" description="Los selfies de alta resolución con tecnología Quad Pixel combinan cuatro píxeles en uno para mejorar la sensibilidad en condiciones de poca luz." imageSrc="/camera4.jpg" />
+        <div>
+          <Swiper
+          slidesPerView={1}
+          >
+            <SwiperSlide><FeatureCard title="Tu teléfono. Tu experiencia." description="Personalízalo todo eligiendo entre varios colores Pantone, fuentes y formas de los iconos. " imageSrc="/image8.png" /></SwiperSlide>
+            <SwiperSlide><FeatureCard title="ENCUADRA TODO LO QUE VES" description="Disfruta de un encuadre cuatro veces mayor con las fotos ultra gran angular, haz primeros planos cuatro veces más cerca y ajusta la profundidad focal para hacer retratos creativos." imageSrc="/camera3.jpg" /></SwiperSlide>
+            <SwiperSlide><FeatureCard title="SELFIES INCREÍBLES" description="Los selfies de alta resolución con tecnología Quad Pixel combinan cuatro píxeles en uno para mejorar la sensibilidad en condiciones de poca luz." imageSrc="/camera4.jpg" /></SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>
