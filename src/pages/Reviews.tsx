@@ -4,7 +4,7 @@ import reviews from '../data/reviews.json'
 import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react'
 
 function Reviews() {
-  const [reviewPerPage, setReviewPerPage] = useState(3)
+  const [reviewPerPage] = useState(3)
   // const [reviewTotal, setReviewTotal] = useState()
   const [currentPage, setCurrentPage] = useState(1)
 

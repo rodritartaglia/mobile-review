@@ -1,4 +1,3 @@
-import { Pagination } from "swiper/modules"
 import FeatureCard from "../components/FeatureCard"
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';

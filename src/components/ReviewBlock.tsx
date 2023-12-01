@@ -1,5 +1,4 @@
 import { IconCheck, IconStarFilled, IconStar, IconX } from '@tabler/icons-react';
-import { useState } from 'react';
 
 interface ReviewBlockProps {
     name: string
@@ -14,7 +13,7 @@ interface ReviewBlockProps {
     date: number
 }
 
-function ReviewBlock({ name, title, description, recommend, stars, valueProduct, easyToUse, camera, performance, date }: ReviewBlockProps) {
+function ReviewBlock({ name, title, description, recommend, valueProduct, easyToUse, camera, performance, date }: ReviewBlockProps) {
 
     const checkIcon = recommend ? <IconCheck /> : <IconX />
 
