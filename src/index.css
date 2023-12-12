@@ -40,8 +40,3 @@ body {
   filter: drop-shadow(-10px -10px 15px rgba(117, 243, 167, 0.5));
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.75);
 }
-
-.selected {
-  height: 4rem;
-  width: 4rem;
-}
